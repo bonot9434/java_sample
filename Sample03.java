@@ -13,7 +13,7 @@ class Sample03{
     System.out.println("年収" + income);
 
     //整数(long型)
-    long malePopulation = 3500000000L;    //人口
+    long malePopulation = 3500000000L;    //人口  Lはint型ではなく、Long型の表示
     System.out.println("人口(男性):" + malePopulation);
 
     //少数点数(double型)
@@ -21,15 +21,15 @@ class Sample03{
     System.out.println("IT業界の求人倍率(2018年):" + acceptanceRateIT);
 
     //少数点数(float型)
-    float tax = 1.08F;   //消費税
+    float tax = 1.08F;   //消費税　Fはdouble型ではなく、Float型の表示
     System.out.println("消費税:" + tax);
 
     //文字(char型)
-    char weekday = '土';   //曜日
+    char weekday = '土';   //曜日 ’はchar型、一文字のみ
     System.out.println("曜日:" + weekday);
 
     //文字列(String型)
-    String name = "モコ";   //名前
+    String name = "モコ";   //名前  "はString型、何文字でも大丈夫
     System.out.println("名前:" + name);
 
     //論理値
