@@ -16,7 +16,7 @@ class Sample04 {
     int answer3 = numberX * numberY;
     System.out.println("answer3:" + answer2);
 
-    int answer5 = numberX / numberY;
+    int answer4 = numberX / numberY;
     System.out.println("answer4:" + answer2);
 
     // 割り切れない場合
@@ -33,8 +33,8 @@ class Sample04 {
     System.out.println("answer8:" + answer8);
     System.out.println("(numberX:" + numberX + ")");
 
-    int answer9 = number++Y;
-    System.out.println("answer9:" + number9);
+    int answer9 = ++numberY ;
+    System.out.println("answer9:" + answer9);
     System.out.println("(numberY:" + numberY + ")");
 
     int answer10 = numberZ + 1;
@@ -46,6 +46,6 @@ class Sample04 {
     System.out.println("(numberZ:" + numberZ + ")");
 
     String answer12 = stNumberX + stNumberY;
-    System.out.pirintln("answer12:" + answer12);
+    System.out.println("answer12:" + answer12);
   }
 }
