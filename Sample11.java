@@ -21,9 +21,21 @@ class Sample11 {
     System.out.println("check2:" + check2);
 
     //【注意】擬似プリミティブとして生成されたString型変数は扱いがややこしい
-    String nameOffice1 = new String("モコ");
-    String nameOffice2 = new String("モコ");
+    String nameOfficial1 = new String("モコ");
+    String nameOfficial2 = new String("モコ");
     String nameGizi1 = "モコ";
     String nameGizi2 = "モコ";
+
+    boolean check3 = nameOfficial1 == nameOfficial2;
+    System.out.println("▼『==』を用いた比較（正式⇔正式)");
+    System.out.println("check3:" + check3);
+
+    boolean check4 = nameGizi1 == nameOfficial1;
+    System.out.println("▼『==』を用いた比較（擬似⇔正式)");
+    System.out.println("check4:" + check4);
+
+    boolean check5 = nameGizi1 == nameGizi2;
+    System.out.println("▼『==』を用いた比較（擬似⇔擬似)　※注目");
+    System.out.println("check5:" + check5);
   }
 }
